@@ -12,6 +12,7 @@ dotenv.config();
 
 app.use(cors());
 app.use(json());
+
 mongoose
   .connect(process.env.Mongo_Url)
   .then(() => {

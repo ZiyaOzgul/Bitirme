@@ -173,15 +173,15 @@ const AllPlans = () => {
                     </div>
 
                     <h1 className="mt-4 px-1 py-2 font-bold text-lg drop-shadow-xl">
-                      React Öğren
+                      {currentplan.title}
                     </h1>
-                    <p className="font-medium text-sm">React öğrenmelisin</p>
+                    <p className="font-medium text-sm">{currentplan.plan} </p>
                     <div className="w-full flex items-center justify-between">
                       <div className="flex flex-col items-center justify-start ml-4">
                         <p className="font-medium text-sm">
                           Tamamlanması Gereken Zaman :
                         </p>
-                        <i> 22.06.2023</i>
+                        <i> 19.07.2023</i>
                       </div>
                       <div className="flex flex-col items-center justify-start mr-4">
                         <p className="font-medium text-sm">Kalan Zaman:</p>
@@ -244,9 +244,9 @@ const AllPlans = () => {
                       <UilCheck className="w-12 h-10 px-3 py-1 text-green-700"></UilCheck>
                     </div>
                     <h1 className=" px-1 py-2 mt-4 font-bold text-lg drop-shadow-xl">
-                      React Öğren
+                      {item.title}
                     </h1>
-                    <p className="font-medium text-sm">React öğrenmelisin</p>
+                    <p className="font-medium text-sm">{complated.plan} </p>
                     <div className="w-full flex items-center justify-between">
                       <div className="flex flex-col items-center justify-start ml-4">
                         <p className="font-medium text-sm">

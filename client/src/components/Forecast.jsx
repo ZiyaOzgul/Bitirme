@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { UilTemperatureHalf, UilTear, UilWind } from "@iconscout/react-unicons";
 import { useDispatch, useSelector, useStore } from "react-redux";
 import {
+  daysStore,
   forecast,
   getWeatherAsync,
   getWeatherData,

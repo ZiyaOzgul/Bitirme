@@ -25,7 +25,10 @@ const Nav = () => {
           : " text-blue-500 border-blue-500"
       }`}
     >
-      <h1 className=" md:font-semibold text-lg mt-12  ">Ziya Özgül</h1>
+      <h1 className="relative md:font-bold text-4xl mt-12 flex items-end  space-x-1">
+        <i className="text-blue-400">Dp</i>
+        <p className="text-xs font-extralight">Daily Planner</p>
+      </h1>
       {/* links */}
 
       <div className=" w-full flex items-center justify-center  flex-col space-y-4 md:space-y-12">
@@ -74,22 +77,22 @@ const Nav = () => {
           </div>
         </Link>
 
-        <div
+        {/* <div
           className={`w-5/6 flex items-center justify-start space-x-1 rounded-lg bg-slate-800 hover:bg-slate-700   transition-all ease-in-out duration-500 group `}
         >
           <UilSetting className="w-10 h-10 p-1 group-hover:scale-105 group-hover:text-blue-500 transition-all ease-in-out duration-500 "></UilSetting>
           <p className="  group-hover:translate-x-3  px-3 py-2 transition-all ease-in-out duration-500 ">
             Settings
           </p>
-        </div>
+        </div> */}
       </div>
       <div className="w-5/6 flex items-center justify-between space-x-2   ">
-        <UilBrightness
+        {/* <UilBrightness
           onClick={() => handleColor("light")}
           className={`cursor-pointer w-10 h-10 p-1 border-slate-900 bg-slate-700 rounded-lg hover:text-yellow-500 hover:bg-slate-200 hover:scale-105 ease-in-out duration-500 ${
             colorMod === "light" ? "border border-blue-500" : null
           } `}
-        ></UilBrightness>
+        ></UilBrightness> */}
         <UilMoon
           onClick={() => handleColor("dark")}
           className={`cursor-pointer w-10 h-10 p-1 border-slate-900 bg-slate-700 rounded-lg hover:text-slate-950 hover:bg-slate-800 hover:scale-105 ease-in-out duration-500 ${
